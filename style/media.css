@@ -1,0 +1,18 @@
+@media(max-width: 500px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .container-small {
+        padding: 15px 15px;
+    }
+
+    .rent,
+    .security {
+        width: 100%;
+    }
+
+    .bottom {
+        justify-content: center;
+    }
+}

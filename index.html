@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="header__link">
+                <svg class="header__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2861)">
+                        <path d="M4.16669 10H15.8334" stroke="#000929" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4.16669 10L9.16669 15" stroke="#000929" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4.16669 10L9.16669 5" stroke="#000929" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_2861">
+                            <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <span class="header__span">Back to&nbsp;Dashboard</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container-small">
+            <div class="main__box-top">
+                <h1 class="main__title">Add New Property</h1>
+                <p class="main__text">Make sure you have filled in&nbsp;all the necessary fields and have uploaded all
+                    the required files.
+                </p>
+                <div class="progress">
+                    <ul class="progress__list">
+                        <li class="progress__item">
+                            <a href="#" class="progress__link progress__link-first">Personal</a>
+                        </li>
+                        <li class="progress__item">
+                            <a href="#" class="progress__link progress__link-second">Listing Information</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="address">
+                <h2 class="address__title title-2">Property Address</h2>
+                <p class="address__text">Woodland St, 105, Phoenix, AZ&nbsp;850001</p>
+
+            </div>
+
+            <form action="#">
+                <div class="form">
+                    <h2 class="form__title title-2">Listing Information</h2>
+                    <fieldset class="form__property fieldset">
+                        <label class="form__label">Property Type*</label>
+                        <div class="dropdown">
+                            <div class="select">
+                                <span class="selected">Select type</span>
+                                <div class="arrow">
+                                    <img src="image/arrow-small.svg" alt="">
+                                </div>
+                            </div>
+                            <ul class="menu">
+                                <li class="option active">Select type</li>
+                                <li class="option option-property">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5">
+                                            <path d="M1.66663 18.3333H18.3333" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M2.45837 18.3334L2.50004 8.30833C2.50004 7.8 2.74171 7.31671 3.14171 7.00004L8.97504 2.45837C9.57504 1.9917 10.4167 1.9917 11.025 2.45837L16.8584 6.9917C17.2667 7.30837 17.5 7.79167 17.5 8.30833V18.3334"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M12.9167 9.16666H7.08337C6.39171 9.16666 5.83337 9.72499 5.83337 10.4167V18.3333H14.1667V10.4167C14.1667 9.72499 13.6084 9.16666 12.9167 9.16666Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.33337 13.5417V14.7917" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                    <span>Home</span>
+                                </li>
+                                <li class="option option-property">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5">
+                                            <path d="M1.83337 18.3333H20.1667" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M17.4834 18.3417V14.625" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M17.5 9.07501C16.4833 9.07501 15.6666 9.89169 15.6666 10.9084V12.8C15.6666 13.8167 16.4833 14.6333 17.5 14.6333C18.5166 14.6333 19.3333 13.8167 19.3333 12.8V10.9084C19.3333 9.89169 18.5166 9.07501 17.5 9.07501Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M2.75 18.3333V5.02501C2.75 3.35001 3.58338 2.50833 5.24171 2.50833H10.4334C12.0917 2.50833 12.9167 3.35001 12.9167 5.02501V18.3333"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.83337 6.875H9.95838" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.83337 10H9.95838" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M7.875 18.3333V15.2083" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                    <span>Condominium</span>
+                                </li>
+                                <li class="option option-property">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5">
+                                            <path
+                                                d="M10.8333 18.3333H4.16663C2.49996 18.3333 1.66663 17.5 1.66663 15.8333V9.16666C1.66663 7.49999 2.49996 6.66666 4.16663 6.66666H8.33329V15.8333C8.33329 17.5 9.16663 18.3333 10.8333 18.3333Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M8.42495 3.33334C8.35828 3.58334 8.33329 3.85834 8.33329 4.16668V6.66668H4.16663V5.00001C4.16663 4.08334 4.91663 3.33334 5.83329 3.33334H8.42495Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.6666 6.66666V10.8333" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M15 6.66666V10.8333" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M14.1666 14.1667H12.5C12.0416 14.1667 11.6666 14.5417 11.6666 15V18.3333H15V15C15 14.5417 14.625 14.1667 14.1666 14.1667Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M8.33337 15.8333V4.16666C8.33337 2.49999 9.16671 1.66666 10.8334 1.66666H15.8334C17.5 1.66666 18.3334 2.49999 18.3334 4.16666V15.8333C18.3334 17.5 17.5 18.3333 15.8334 18.3333H10.8334C9.16671 18.3333 8.33337 17.5 8.33337 15.8333Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                    <span>Apartment</span>
+                                </li>
+                                <li class="option option-property">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5">
+                                            <path
+                                                d="M5.5833 15H3.45831C2.26665 15 1.66663 14.4 1.66663 13.2083V3.45834C1.66663 2.26668 2.26665 1.66666 3.45831 1.66666H7.04164C8.2333 1.66666 8.83327 2.26668 8.83327 3.45834V4.99999"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M14.475 7.01665V16.3167C14.475 17.6583 13.8084 18.3333 12.4667 18.3333H7.60003C6.25836 18.3333 5.58337 17.6583 5.58337 16.3167V7.01665C5.58337 5.67499 6.25836 5 7.60003 5H12.4667C13.8084 5 14.475 5.67499 14.475 7.01665Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M11.1667 4.99999V3.45834C11.1667 2.26668 11.7667 1.66666 12.9584 1.66666H16.5417C17.7334 1.66666 18.3334 2.26668 18.3334 3.45834V13.2083C18.3334 14.4 17.7334 15 16.5417 15H14.4751"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.33337 9.16666H11.6667" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.33337 11.6667H11.6667" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10 18.3333V15.8333" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                    <span>Townhouse</span>
+                                </li>
+                                <li class="option option-property">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5">
+                                            <path d="M1.66663 18.3333H18.3333" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M14.1667 1.66666H5.83333C3.33333 1.66666 2.5 3.15832 2.5 4.99999V18.3333H17.5V4.99999C17.5 3.15832 16.6667 1.66666 14.1667 1.66666Z"
+                                                stroke="#000929" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.83337 13.75H8.33337" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.6666 13.75H14.1666" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.83337 10H8.33337" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.6666 10H14.1666" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M5.83337 6.25H8.33337" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.6666 6.25H14.1666" stroke="#000929" stroke-width="2"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                    <span>Dorm&nbsp;/ Room&nbsp;/ Student housing</span>
+                                </li>
+                                <li class="option option-property">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.5" clip-path="url(#clip0_2024_148)">
+                                            <path
+                                                d="M4.16671 10.8333C4.62694 10.8333 5.00004 10.4602 5.00004 9.99999C5.00004 9.53975 4.62694 9.16666 4.16671 9.16666C3.70647 9.16666 3.33337 9.53975 3.33337 9.99999C3.33337 10.4602 3.70647 10.8333 4.16671 10.8333Z"
+                                                stroke="#000929" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M9.99996 10.8333C10.4602 10.8333 10.8333 10.4602 10.8333 9.99999C10.8333 9.53975 10.4602 9.16666 9.99996 9.16666C9.53972 9.16666 9.16663 9.53975 9.16663 9.99999C9.16663 10.4602 9.53972 10.8333 9.99996 10.8333Z"
+                                                stroke="#000929" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M15.8333 10.8333C16.2936 10.8333 16.6667 10.4602 16.6667 9.99999C16.6667 9.53975 16.2936 9.16666 15.8333 9.16666C15.3731 9.16666 15 9.53975 15 9.99999C15 10.4602 15.3731 10.8333 15.8333 10.8333Z"
+                                                stroke="#000929" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2024_148">
+                                                <rect width="20" height="20" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span>Other</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form__second fieldset">
+                        <fieldset class="bedrooms fieldset">
+                            <label class="form__label">Bedrooms*</label>
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">How many beds</span>
+                                    <div class="arrow">
+                                        <img src="image/arrow-small.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="option active">How many beds</li>
+                                    <li class="option">
+                                        1
+                                    </li>
+                                    <li class="option">
+                                        2
+                                    </li>
+                                    <li class="option">
+                                        3
+                                    </li>
+                                    <li class="option">
+                                        4
+                                    </li>
+                                    <li class="option">
+                                        5
+                                    </li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                        <fieldset class="baths fieldset">
+                            <label class="form__label">Baths*</label>
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">How many beds</span>
+                                    <div class="arrow">
+                                        <img src="image/arrow-small.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="option active">How many baths</li>
+                                    <li class="option">
+                                        1
+                                    </li>
+                                    <li class="option">
+                                        2
+                                    </li>
+                                    <li class="option">
+                                        3
+                                    </li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                        <fieldset class="feet fieldset">
+                            <label class="form__label">Square Feet</label>
+                            <input class="feet__input" type="text" placeholder="sq ft">
+                        </fieldset>
+                    </fieldset>
+                    <fieldset class="form__price price fieldset">
+                        <fieldset class="rent fieldset">
+                            <label class="form__label">Monthly Rent*</label>
+                            <input type="text" class="price__input">
+                        </fieldset>
+                        <fieldset class="security fieldset">
+                            <label class="form__label deposit">Security Deposit</label>
+                            <input type="text" class="price__input">
+                        </fieldset>
+                    </fieldset>
+
+                    <fieldset class="form__amenitites fieldset">
+                        <fieldset class="amenitites fieldset">
+                            <label class="form__label">Select Amenitites</label>
+                            <div class="amenitites__block">
+                                <div class="amenitites__box">
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="A/C">
+                                        <span class="amenitites__span">A/C</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Deck">
+                                        <span class="amenitites__span">Deck</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Pet-Friendly">
+                                        <span class="amenitites__span">Pet Friendly</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Free-Parking-Spots">
+                                        <span class="amenitites__span">Free Parking Spots</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Pool">
+                                        <span class="amenitites__span">Pool</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Yard">
+                                        <span class="amenitites__span">Yard</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Free-Wi-Fi">
+                                        <span class="amenitites__span">Free Wi-Fi</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Gym">
+                                        <span class="amenitites__span">Gym</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Hardwood-Floor">
+                                        <span class="amenitites__span">Hardwood Floor</span>
+                                    </label>
+                                    <label class="amenitites__label">
+                                        <input type="checkbox" class="amenitites__checkbox" name="Jacuzzi">
+                                        <span class="amenitites__span">Jacuzzi</span>
+                                    </label>
+                                </div>
+                                <button class="amenitites__btn">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_2576)">
+                                            <path d="M8 2.66666V13.3333" stroke="#7065F0" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M2.66666 8H13.3333" stroke="#7065F0" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_2576">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span>Add amenity</span>
+                                </button>
+                            </div>
+
+
+                        </fieldset>
+                    </fieldset>
+
+
+
+                    <fieldset class="form__description fieldset">
+                        <label class="form__label">Description*</label>
+                        <textarea class="textarea" placeholder="Tell&nbsp;us about your home here"></textarea>
+                    </fieldset>
+                </div>
+
+
+                <div class="bottom">
+                    <button class="bottom__btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
